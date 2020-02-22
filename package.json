@@ -4,6 +4,7 @@
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "homepage": "https://emanuelazevedo.github.io/Cardfolio/",
   "dependencies": {
     "@emotion/core": "^10.0.22",
     "@emotion/styled": "^10.0.23",
@@ -67,7 +68,7 @@
     "lint": "eslint ./",
     "storybook": "NODE_ENV=production start-storybook -s public",
     "build-storybook": "NODE_ENV=production build-storybook -s public",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d master"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "repository": {
     "type": "git",
