@@ -47,6 +47,7 @@
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.7.0",
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.8",
+    "gh-pages": "^2.2.0",
     "prettier": "^1.19.1",
     "typescript": "^3.7.2"
   },
@@ -65,7 +66,8 @@
     "type-check": "tsc --noEmit",
     "lint": "eslint ./",
     "storybook": "NODE_ENV=production start-storybook -s public",
-    "build-storybook": "NODE_ENV=production build-storybook -s public"
+    "build-storybook": "NODE_ENV=production build-storybook -s public",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "repository": {
     "type": "git",
