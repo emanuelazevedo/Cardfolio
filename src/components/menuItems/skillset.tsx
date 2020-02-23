@@ -39,11 +39,10 @@ const SkillSet = (props: Props) => {
                 'Element',
                 'Lv',
                 { role: 'style' },
-                { role: 'annotation' },
               ],
               ...dataSets.map(({
-                label, level, barColor, annotation,
-              }) => [label, level, barColor, annotation]),
+                label, level, barColor,
+              }) => [label, level, barColor]),
             ]}
             options={{
               backgroundColor: { fill: 'transparent', opacity: 0.1 },

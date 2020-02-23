@@ -57,11 +57,6 @@
         "type": "mail",
         "label": "emanuelf.azevedo@gmail.com",
         "href": "mailto: emanuelf.azevedo@gmail.com"
-      },
-      {
-        "type": "messenger",
-        "label": "emanu.azevedo",
-        "href": "https://www.facebook.com/help/messenger-app/android/1047811435279151?helpref=uf_permalink"
       }
     ]
   },
@@ -84,28 +79,58 @@
     "menuItemTitle": "SkillSet",
     "skillDatum": [
       {
-        "categoryTitle": "Developer Skills:",
+        "categoryTitle": "Frontend:",
         "dataSets": [
           {
-            "label": "HTML, CSS",
+            "label": "React",
             "level": 3,
             "barColor": "#F8545B",
             "annotation": "Not Good"
           },
           {
-            "label": "JavaScript",
-            "level": 3,
+            "label": "Angular",
+            "level": 2,
             "barColor": "#54B3F8",
             "annotation": "Yeeees!"
           },
           {
-            "label": "React",
-            "level": 5,
+            "label": "Vue",
+            "level": 3,
+            "barColor": "#34D97A",
+            "annotation": "14Hours/Day"
+          },
+          {
+            "label": "CSS",
+            "level": 3,
+            "barColor": "#F8545B",
+            "annotation": "Not Good"
+          }
+        ]
+      },
+      {
+        "categoryTitle": "Backend:",
+        "dataSets": [
+          {
+            "label": "Laravel",
+            "level": 3,
+            "barColor": "#F8545B",
+            "annotation": "Not Good"
+          },
+          {
+            "label": "Symfony",
+            "level": 2,
+            "barColor": "#54B3F8",
+            "annotation": "Yeeees!"
+          },
+          {
+            "label": "Express",
+            "level": 3,
             "barColor": "#34D97A",
             "annotation": "14Hours/Day"
           }
         ]
       }
+
     ]
   },
   "siteMetaData": {
