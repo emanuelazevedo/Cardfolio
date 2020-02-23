@@ -25,7 +25,7 @@ const SelfIntroduction = (props: Props) => {
   const { description, menuItemTitle, socialURLs } = props.data
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "profile.png" }) {
+      file(relativePath: { eq: "emanuel.png" }) {
         childImageSharp {
           fixed(width: 200, height: 200) {
             ...GatsbyImageSharpFixed
