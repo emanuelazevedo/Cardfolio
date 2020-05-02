@@ -71,9 +71,9 @@ const BackSide = ({ data }) => {
       </a.div>
       )}
       {/* It's not mondatory, but I'm glad to keep this credit which link to cardfolio */}
-      <Credit onClick={(event) => event.stopPropagation()} href="https://github.com/kazuooooo/Cardfolio" target="_blank">
+      {/* <Credit onClick={(event) => event.stopPropagation()} href="https://github.com/kazuooooo/Cardfolio" target="_blank">
         created by cardfolio
-      </Credit>
+      </Credit> */}
     </Container>
   )
 }
