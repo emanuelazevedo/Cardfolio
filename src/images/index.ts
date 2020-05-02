@@ -7,7 +7,7 @@ import Qiita from './qiita.png'
 import Medium from './medium.png'
 import Mail from './mail.png'
 import Messenger from './messenger.png'
-import Profile from './profile.png'
+import Profile from './emanuel.png'
 import Paper from './paper.png'
 
 enum Images {
