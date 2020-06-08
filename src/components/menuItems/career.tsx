@@ -68,7 +68,7 @@ const Title = styled.h1`
   margin-bottom: 28px;
 `
 const TimeLine = styled.div`
-  width: 3px;
+  width: 0px;
   background-color: #707070;
   position: absolute;
   height: 100%;

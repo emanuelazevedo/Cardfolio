@@ -90,8 +90,10 @@ const Container = styled.div`
 const ItemsContainer = styled.section`
   display: flex;
   flex-direction: column;
-  overflow: scroll;
+  overflow: hidden;
 `
+// overflow: scroll;
+
 const MenuItemLink = styled.a`
   font-size: ${FontSize.SubTitle};
   margin-top: ${Margins.LittleRelated};

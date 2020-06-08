@@ -2,8 +2,12 @@ html * {
   font-family: sans-serif;
   font-weight: 500;
   font-style: normal;
-  color: #323333;
+  color: #dbdbdb;
+  background-color: #09052e;
 }
+html, body {
+  overflow-x:hidden !important;
+} 
 p {
   font-size: 16px;
   line-height: 2.0em;
